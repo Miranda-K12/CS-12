@@ -11,6 +11,13 @@
     width: 39.98px;
     height: 40px;
 }
+.travel-companies{
+flex-wrap: wrap;
+justify-content: center;
+}
+.logos{
+    width:34%;
+}
 }
 @media (max-width:430px){
    .container{
