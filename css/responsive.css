@@ -1,0 +1,33 @@
+@media (max-width:1024px){
+    .container{
+   max-width: 896px;
+   width:90%;
+    }
+    .nav-menu{
+    display: none;
+}
+.burger-bar{
+    display: block;
+    width: 39.98px;
+    height: 40px;
+}
+}
+@media (max-width:430px){
+   .container{
+   max-width: 398px;
+   width:90%;
+} 
+header{
+    height:112px;
+}
+.user-account{
+    display: none;
+}
+.burger-bar{
+    order:2;
+}
+.brand-logo{
+    order:1;
+}
+
+}
