@@ -11,6 +11,31 @@
     width: 39.98px;
     height: 40px;
 }
+.hero-section{
+   flex-direction: column;
+   gap:64px;
+}
+.left-block{
+    order:2;
+    margin: 0 auto;
+}
+.hero-texts{
+    text-align: center;
+    align-items: center;
+}
+.hero-header, .top{
+font-size:56px;
+Line-height:67.2px;
+text-align: center;
+}
+.hero-paraghrap{
+    max-width: 445px;
+    width: 90%;
+    text-align: center;
+}
+.right-block{
+    order:1;
+}
 .travel-companies{
 flex-wrap: wrap;
 justify-content: center;
@@ -36,5 +61,33 @@ header{
 .brand-logo{
     order:1;
 }
-
+.hero-section{
+    padding: 32px 0;
+}
+.right-block{
+    height:147.52px;
+}
+.hero-header, .top{
+font-size:40px;
+Line-height:48px;
+text-align: center;
+}
+.hero-texts{
+    gap:24px;
+}
+.hero-paraghrap{
+font-size: 16px;
+line-height: 25.6px;
+}
+.buttons{
+flex-direction: column;
+  width:100%;
+  gap:24px;
+}
+.watch{
+    margin: 0 auto;
+}
+.left-block{
+    width:100%;
+}
 }

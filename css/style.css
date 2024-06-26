@@ -3,7 +3,7 @@ body{
 }
 .container{
    max-width: 1184px;
-   width:90%;
+   width:95%;
    margin: 0 auto;
 }
 /*header*/
@@ -62,6 +62,79 @@ font-weight: 700;
     padding: 16px 32px;
     border-radius:100px;
 }
+/*hero-section*/
+.hero-section{
+    display: flex;
+    padding: 64px 0;
+}
+.left-block{
+    max-width:412px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap:43px;
+}
+.hero-texts{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap:43px;
+}
+.hero-header{
+font-size: 69px;
+font-weight: 700;
+line-height: 82.8px;
+}
+.top{
+color:#F85E9F;
+}
+.hero-paraghrap{
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+color:#19182580;
+}
+.buttons{
+    display: flex;
+    gap:48px;
+}
+.started{
+padding: 16px 32px;
+gap: 8px;
+border-radius: 100px;
+background-color: #5D50C6;
+color:#EEEEEE;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+}
+.watch{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.play-btn{
+    width:24px;
+    height:24px;
+}
+.watch{
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+color:#222831;
+}
+.right-block{
+    max-width:772px;
+    width:100%;
+    align-self: center;
+    height:287.38px;
+}
+.map-image{
+    width:100%;
+    height:100%;
+}
+
 /*travel companies*/
 .travel-companies{
 display: flex;
