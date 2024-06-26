@@ -39,19 +39,16 @@ text-align: center;
 .right-block{
     order:1;
 }
-.logos{
+/*.logos{
 flex-wrap: wrap;
 max-width: 567.49px;
 width:90%;
 margin: 0 auto;
 row-gap: 32px;
 }
+*/
 }
-@media (max-width:430px){
-   .container{
-   max-width: 398px;
-   width:90%;
-} 
+@media (max-width:744px){
 header{
     height:112px;
 }
@@ -64,6 +61,19 @@ header{
 .brand-logo{
     order:1;
 }
+.hero-section{
+    padding: 48px 0;
+    row-gap: 48px;
+}
+.right-block{
+    height:180px;
+}
+}
+@media (max-width:430px){
+   .container{
+   max-width: 398px;
+   width:90%;
+} 
 .hero-section{
     padding: 32px 0;
 }
