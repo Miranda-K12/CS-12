@@ -33,15 +33,18 @@ text-align: center;
     width: 90%;
     text-align: center;
 }
+.provide{
+    display: inline;
+}
 .right-block{
     order:1;
 }
-.travel-companies{
-flex-wrap: wrap;
-justify-content: center;
-}
 .logos{
-    width:34%;
+flex-wrap: wrap;
+max-width: 567.49px;
+width:90%;
+margin: 0 auto;
+row-gap: 32px;
 }
 }
 @media (max-width:430px){

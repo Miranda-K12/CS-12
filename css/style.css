@@ -95,6 +95,9 @@ font-weight: 400;
 line-height: 28.8px;
 color:#19182580;
 }
+.provide{
+    display: block;
+}
 .buttons{
     display: flex;
     gap:48px;
@@ -137,10 +140,12 @@ color:#222831;
 
 /*travel companies*/
 .travel-companies{
+padding:64px 0;
+}
+.logos{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding:64px 0;
 }
 .logo-1{
     max-width: 211.83px;
