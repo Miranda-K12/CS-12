@@ -1,9 +1,4 @@
 @media (max-width:1024px){
-    .container{
-   max-width: 896px;
-   width:90%;
-   margin: 0 auto;
-}
     .nav-menu{
     display: none;
 }
@@ -48,7 +43,15 @@ margin: 0 auto;
 row-gap: 32px;
 }
 */
-
+.text-box{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:64px;
+}
+.destination-header{
+font-size: 40px;
+}
 .card-img{
     height:314px;
 }
@@ -72,6 +75,9 @@ header{
 }
 .right-block{
     height:180px;
+}
+.destination-header{
+font-size: 32px;
 }
 }
 @media (max-width:430px){
@@ -118,15 +124,8 @@ align-items: center;
 width:64px;
 height:64px;
 }
-.text-box{
-    flex-direction: column;
-   text-align: center;
-}
 .destinations-subheader{
     font-size:16px;
-}
-.destinations-header{
-    font-size: 32px;
 }
 .arrow-btns{
     justify-content: space-between;
